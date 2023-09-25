@@ -1,0 +1,48 @@
+body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+.header {
+    height: 100vh;
+    padding: 1em;
+    font-size: 2em;
+    background-image: url("/assets/img/fondo.webp");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .header h1 {
+    margin: auto;
+    font-size: 2em;
+    font-weight: 400;
+  }
+
+  .products {
+    width: 50%;
+    margin: auto;
+  }
+  
+  .products td{
+    width: 20%;
+    padding: 2em;
+  }
+  
+  .products img{
+    width: 100%;
+    border: solid 1px #ddd;
+  }
+  
+  .footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(60, 5, 37);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 1em;
+  }
+
+  a {
+    color: white;
+  }
